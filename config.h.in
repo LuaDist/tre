@@ -158,22 +158,22 @@
 #cmakedefine NO_MINUS_C_MINUS_O 1
 
 /* Name of package */
-#cmakedefine PACKAGE "@DIST_NAME@-@DIST_VERSION"
+#define PACKAGE "@DIST_NAME@-@DIST_VERSION"
 
 /* Define to the address where bug reports for this package should be sent. */
-#cmakedefine PACKAGE_BUGREPORT "@DIST_URL@"
+#define PACKAGE_BUGREPORT "@DIST_URL@"
 
 /* Define to the full name of this package. */
-#cmakedefine PACKAGE_NAME "@DIST_NAME@"
+#define PACKAGE_NAME "@DIST_NAME@"
 
 /* Define to the full name and version of this package. */
-#cmakedefine PACKAGE_STRING "@DIST_NAME@-@DIST_VERSION@"
+#define PACKAGE_STRING "@DIST_NAME@-@DIST_VERSION@"
 
 /* Define to the one symbol short name of this package. */
-#cmakedefine PACKAGE_TARNAME "@DIST_NAME@-@DIST_VERSION@.tar"
+#define PACKAGE_TARNAME "@DIST_NAME@-@DIST_VERSION@.tar"
 
 /* Define to the version of this package. */
-#cmakedefine PACKAGE_VERSION "@DIST_VERSION"
+#define PACKAGE_VERSION "@DIST_VERSION"
 
 /* If using the C implementation of alloca, define if you know the
    direction of stack growth for your system; otherwise it will be
@@ -210,22 +210,22 @@
 #cmakedefine TRE_USE_SYSTEM_REGEX_H 1
 
 /* TRE version string. */
-#cmakedefine TRE_VERSION "@DIST_VERSION@"
+#define TRE_VERSION "@DIST_VERSION@"
 
 /* TRE version level 1. */
-#cmakedefine TRE_VERSION_1 0
+#define TRE_VERSION_1 0
 
 /* TRE version level 2. */
-#cmakedefine TRE_VERSION_2 8
+#define TRE_VERSION_2 8
 
 /* TRE version level 3. */
-#cmakedefine TRE_VERSION_3 0
+#define TRE_VERSION_3 0
 
 /* Define to enable wide character (wchar_t) support. */
 #cmakedefine TRE_WCHAR 1
 
 /* Version number of package */
-#cmakedefine VERSION "@DIST_VERSION@"
+#define VERSION "@DIST_VERSION@"
 
 /* Define to the maximum value of wchar_t if not already defined elsewhere */
 #cmakedefine WCHAR_MAX @WCHAR_MAX@

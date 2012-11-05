@@ -9,8 +9,8 @@ cmake_minimum_required ( VERSION 2.8 )
 include ( cmake/dist.cmake )
 include ( configure )
 
-configure_file ( config.h.in config.h )
-configure_file ( lib/tre-config.h.in lib/tre-config.h )
+configure_file ( config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/config.h )
+configure_file ( lib/tre-config.h.in ${CMAKE_CURRENT_SOURCE_DIR}/lib/tre-config.h )
 
 add_definitions ( -DHAVE_CONFIG_H )
 include_directories ( ${CMAKE_CURRENT_SOURCE_DIR} lib )
